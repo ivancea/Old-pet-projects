@@ -1,0 +1,10 @@
+[ECX+34]Si se cambia el segundo 0 por un 1 (01000000),
+        se podrá volar. Por un 2, para no poder apollarse
+        en el suelo. Por un 3 para volar (1, pero en el aire volando).
+        En el primer valor: C-4 para efecto levitar, 7 para levitar y
+	caer despacio, 9 para andar sobre el agua, 8 normal.
+        Además, aquí se guarda el movimiento del personaje.
+        El valor 00000X00 si es un 4 no permite bajar de altura. 
+	1 para andar. 5 para andar sin descender.
+        El valor 00X00000 si es 6,C, es un salto. 1,2,3, nadar.
+	B para DETENER el juego.

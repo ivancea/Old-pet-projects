@@ -1,0 +1,26 @@
+El valor de [ECX] en breackpoint en 004f4476 es
+la coordenada NORTE-SUR.
+La coordenada Este-Oeste es [ECX+04] (el adress norte
+sur + 4).
+La Altura es [ecx+08] (el adress norte-sur + 8).
+La velocidad se guarda en flotante. La normal es 7. 100%
+14, etc. 00987671 para ver la direccion. 
+LA velocidad de nado es 8 más que la normal.
+
+
+RESUMEN:
+004f4476 -[ECX]
+[ECX] N-S
+[ECX+4] O-E
+[ECX+8]Altura
+[ECX+84]Velocidad por suelo
+[ECX+8C]Velocidad nadando
+[ECX+94]Velocidad en voladora
+[ECX+C0]Si es 0, no permite ascender. Predeterminado: 1
+        Si se pone a más de 1 (50 está bien) permite escalar.
+        CUIDADO: Valores mayores de 100 son peligrosos, 
+        (caída al vacío).
+[ECX+24]Si es 1, no permite moverse. Predeterminado: 0
+[ECX+80]Velocidad al ir lento (/). Si es mayor que la 
+        velocidad normal, irá a esa velocidad.
+[ECX+34]Dirección de movimiento compleja: otro txt.

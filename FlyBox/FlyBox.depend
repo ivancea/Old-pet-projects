@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1413981932 source:c:\users\iván\desktop\proyectos\ultimos\flybox\serial.cpp
+	"timers.h"
+	"Serial.h"
+
+1413638933 c:\users\iván\desktop\proyectos\ultimos\flybox\serial.h
+	<windows.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1433844893 source:c:\users\ivancea\desktop\proyectos\flybox\main.cpp
+	<iostream>
+	<vector>
+	"ivancea.h"
+	"canciones.h"
+	"selector.h"
+	"serial.h"
+
+1413646134 c:\users\ivancea\desktop\proyectos\flybox\serial.h
+	<windows.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1413989134 source:c:\users\ivancea\desktop\proyectos\flybox\serial.cpp
+	"timers.h"
+	"Serial.h"
+

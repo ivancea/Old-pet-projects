@@ -1,0 +1,24 @@
+para seno :g
+
+sl
+haz "a  0
+si :g>0 [
+ haz.hasta [av 1 gi 0.5 haz "a :a+0.5] [:a>:g]
+       ]
+si :g<0 [
+haz "a -360
+gd 180
+ haz.hasta [av 1 gd 0.5 haz "a :a-0.5] [:a>:g]
+       ]
+haz "r ul pos
+haz "r :r/115.090831
+si :g=0 [ haz "r 0]
+ponpos [0 0]
+ponrumbo 0
+gd 90
+
+escribe fr :r fr [es el seno de] fr :g [grados.]
+rotula fr :r fr [es el seno de] fr :g [grados.]
+gi 90
+bl
+fin

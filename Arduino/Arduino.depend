@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1429784135 source:c:\users\iván\desktop\arduino\serial.cpp
+	"functions.h"
+	"Serial.h"
+	"timers.h"
+
+1429783973 c:\users\iván\desktop\arduino\serial.h
+	<windows.h>
+	<string>
+
+1429783973 source:c:\users\iván\desktop\arduino\main.cpp
+	<iostream>
+	<map>
+	<windows.h>
+	"serial.h"
+
+1423154965 c:\users\iván\desktop\arduino\functions.h
+	<iostream>
+	<vector>
+
+1423155003 source:c:\users\iván\desktop\arduino\functions.cpp
+	<iostream>
+	<vector>
+	<chrono>
+	<thread>
+	"functions.h"
+
+1429793339 source:c:\users\iván\desktop\arduino\main_grafica.cpp
+	<iostream>
+	<list>
+	"ivancea.h"
+	"timers.h"
+	"serial.h"
+
+1429784716 source:c:\users\iván\desktop\arduino\main_wii.cpp
+	<iostream>
+	<map>
+	<windows.h>
+	"serial.h"
+
+1430164514 source:c:\users\ivancea\desktop\arduino\serial.cpp
+	"Serial.h"
+	"timers.h"
+
+1429783974 c:\users\ivancea\desktop\arduino\serial.h
+	<windows.h>
+	<string>
+
+1429875974 source:c:\users\ivancea\desktop\arduino\main_wii.cpp
+	<iostream>
+	<map>
+	<windows.h>
+	"selector.h"
+	"serial.h"
+
+1429874357 source:c:\users\ivancea\desktop\arduino\main_grafica.cpp
+	<iostream>
+	<list>
+	"ivancea.h"
+	"timers.h"
+	"serial.h"
+
+1503761880 source:c:\users\ivancea\desktop\proyectos\arduino\main_wii.cpp
+	<iostream>
+	<map>
+	<windows.h>
+	"selector.h"
+	"serial.h"
+
+1429791174 c:\users\ivancea\desktop\proyectos\arduino\serial.h
+	<windows.h>
+	<string>
+
+1430171714 source:c:\users\ivancea\desktop\proyectos\arduino\serial.cpp
+	"Serial.h"
+	"timers.h"
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:margin="10dp"
+        android:text="Nombre:" />
+
+    <TextView
+        android:id="@+id/contrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombre"
+        android:textSize="25dp"
+        android:margin="10dp"
+        android:text="Contraseña:" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contrasena"
+        android:layout_alignParentEnd="true"
+        android:textSize="25dp"
+        android:margin="10dp"
+        android:hint="Nombre:" />
+
+    <EditText
+        android:id="@+id/txtContrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contrasena"
+        android:layout_below="@id/txtNombre"
+        android:layout_alignParentRight="true"
+        android:textSize="25dp"
+        android:margin="10dp"
+        android:inputType="textPassword"
+        android:hint="********" />
+
+    <Button
+        android:id="@+id/aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtContrasena"
+        android:layout_alignParentEnd="true"
+        android:textSize="25dp"
+        android:margin="10dp"
+        android:text="ACEPTAR" />
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtContrasena"
+        android:layout_toLeftOf="@id/aceptar"
+        android:textSize="25dp"
+        android:margin="10dp"
+        android:text="CANCEL" />
+
+</RelativeLayout>
+

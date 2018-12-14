@@ -1,0 +1,175 @@
+# depslib dependency file v1.0
+1436798462 source:c:\users\ivancea\desktop\flota\main.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	"timers.h"
+	"scene.h"
+
+1431986947 c:\users\ivancea\desktop\flota\scene.h
+	<map>
+	<string>
+	<iostream>
+	"sceneMenu.h"
+	"sceneGame.h"
+
+1433769596 c:\users\ivancea\desktop\flota\scenemenu.h
+	<SFML/Graphics.hpp>
+	"button.h"
+	"scene.h"
+
+1436703108 source:c:\users\ivancea\desktop\flota\scenemenu.cpp
+	"sceneMenu.h"
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	"button.h"
+	<iostream>
+
+1436801189 c:\users\ivancea\desktop\flota\scenegame.h
+	<SFML/Graphics.hpp>
+	<ctime>
+	<list>
+	"cheats.h"
+	"util.h"
+	"scene.h"
+
+1436801550 source:c:\users\ivancea\desktop\flota\scenegame.cpp
+	"sceneGame.h"
+	<string>
+	<cmath>
+	<ctime>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	"cheats.h"
+	"util.h"
+	<iostream>
+
+1436214313 source:c:\users\ivancea\desktop\flota\button.cpp
+	"button.h"
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+
+1435964451 c:\users\ivancea\desktop\flota\button.h
+	<string>
+	<SFML/Graphics.hpp>
+
+1436525336 c:\users\ivancea\desktop\flota\util.h
+	<string>
+	<SFML/Graphics.hpp>
+
+1436525336 source:c:\users\ivancea\desktop\flota\util.cpp
+	"util.h"
+
+1436645901 source:c:\users\ivancea\desktop\flota\src\globals.cpp
+	"globals.h"
+	<map>
+	<algorithm>
+
+1436645273 c:\users\ivancea\desktop\flota\include\globals.h
+	<SFML/Graphics.hpp>
+	<vector>
+
+1436702075 c:\users\ivancea\desktop\flota\globals.h
+
+1436702075 source:c:\users\ivancea\desktop\flota\globals.cpp
+	"globals.h"
+
+1436701973 c:\users\ivancea\desktop\flota\include\cheats.h
+	<SFML/Graphics.hpp>
+	<vector>
+
+1436702051 source:c:\users\ivancea\desktop\flota\src\cheats.cpp
+	"cheats.h"
+	<map>
+	<algorithm>
+
+1436801480 c:\users\ivancea\desktop\flota\cheats.h
+	<SFML/Graphics.hpp>
+	<vector>
+
+1436801460 source:c:\users\ivancea\desktop\flota\cheats.cpp
+	"cheats.h"
+	<map>
+	<algorithm>
+
+1467597593 source:c:\users\ivancea\desktop\proyectos\flota\button.cpp
+	"button.h"
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	"util.h"
+
+1435971651 c:\users\ivancea\desktop\proyectos\flota\button.h
+	<string>
+	<SFML/Graphics.hpp>
+
+1467597505 source:c:\users\ivancea\desktop\proyectos\flota\util.cpp
+	"util.h"
+
+1467597505 c:\users\ivancea\desktop\proyectos\flota\util.h
+	<string>
+	<SFML/Graphics.hpp>
+
+1436808660 source:c:\users\ivancea\desktop\proyectos\flota\cheats.cpp
+	"cheats.h"
+	<map>
+	<algorithm>
+
+1436808680 c:\users\ivancea\desktop\proyectos\flota\cheats.h
+	<SFML/Graphics.hpp>
+	<vector>
+
+1436709275 source:c:\users\ivancea\desktop\proyectos\flota\globals.cpp
+	"globals.h"
+
+1436709275 c:\users\ivancea\desktop\proyectos\flota\globals.h
+
+1467597505 source:c:\users\ivancea\desktop\proyectos\flota\main.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	"timers.h"
+	"scene.h"
+	"util.h"
+
+1431994147 c:\users\ivancea\desktop\proyectos\flota\scene.h
+	<map>
+	<string>
+	<iostream>
+	"sceneMenu.h"
+	"sceneGame.h"
+
+1433776796 c:\users\ivancea\desktop\proyectos\flota\scenemenu.h
+	<SFML/Graphics.hpp>
+	"button.h"
+	"scene.h"
+
+1467597898 c:\users\ivancea\desktop\proyectos\flota\scenegame.h
+	<SFML/Graphics.hpp>
+	<ctime>
+	<list>
+	"cheats.h"
+	"util.h"
+	"scene.h"
+
+1467597950 source:c:\users\ivancea\desktop\proyectos\flota\scenegame.cpp
+	"sceneGame.h"
+	<string>
+	<cmath>
+	<ctime>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	"cheats.h"
+	"util.h"
+	<iostream>
+
+1467596822 source:c:\users\ivancea\desktop\proyectos\flota\scenemenu.cpp
+	"sceneMenu.h"
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	"button.h"
+	<iostream>
+

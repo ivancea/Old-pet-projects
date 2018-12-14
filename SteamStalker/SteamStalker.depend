@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1471631691 source:c:\users\ivancea\desktop\steamstalker\json.cpp
+	"JSON.h"
+
+1470418760 c:\users\ivancea\desktop\steamstalker\json.h
+	<vector>
+	<map>
+
+1471631583 source:c:\users\ivancea\desktop\steamstalker\main.cpp
+	<iostream>
+	"http.h"
+	"JSON.h"
+
+1502052660 source:c:\users\ivancea\desktop\proyectos\steamstalker\json.cpp
+	"JSON.hpp"
+
+1470418760 c:\users\ivancea\desktop\proyectos\steamstalker\json.h
+	<vector>
+	<map>
+
+1478269534 source:c:\users\ivancea\desktop\proyectos\steamstalker\main.cpp
+	<iostream>
+	<list>
+	<ctime>
+	<thread>
+	<chrono>
+	<exception>
+	"http.h"
+	"JSON.h"
+
+1502408876 source:c:\users\ivancea\desktop\proyectos\steamstalker\main_fetcher.cpp
+	<iostream>
+	<list>
+	<ctime>
+	<thread>
+	<chrono>
+	<exception>
+	"http.h"
+	"JSON.hpp"
+
+1482866206 source:c:\users\ivancea\desktop\proyectos\steamstalker\main_graphics.cpp
+	<iostream>
+	<fstream>
+	<list>
+	<ctime>
+	<SFML/Graphics.hpp>
+	"Status.h"
+
+1502052660 c:\users\ivancea\desktop\proyectos\steamstalker\json.hpp
+	<vector>
+	<map>
+
+1482865863 c:\users\ivancea\desktop\proyectos\steamstalker\status.h
+

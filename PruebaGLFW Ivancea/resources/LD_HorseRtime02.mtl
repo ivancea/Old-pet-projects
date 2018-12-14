@@ -1,0 +1,37 @@
+# Blender MTL File: 'LD_HorseRtime02.blend'
+# Material Count: 3
+newmtl Eye_brown
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd eye_texture.tga
+
+
+newmtl Material.003_Hair12Main2k.tga
+Ns 15.686275
+Ka 0.000000 0.000000 0.000000
+Kd 0.440000 0.440000 0.440000
+Ks 0.040000 0.040000 0.040000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Hair12Main2k.tga
+map_Bump Hair12Main2k.tga
+
+
+newmtl Material_HorseMain4k00.tga
+Ns 21.568627
+Ka 0.000000 0.000000 0.000000
+Kd 0.480000 0.480000 0.480000
+Ks 0.060000 0.060000 0.060000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd HorseMain2k00.tga
+map_Bump HorseMain2k00.tga
+
+

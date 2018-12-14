@@ -1,0 +1,25 @@
+name: ExpControl
+main: com.mundor.ivancea.ExpControl.ExpControl
+version: 1.0
+author: ivancea96
+commands:
+   darnivel:
+      description: Da niveles a otro jugador.
+      usage: /darnivel <jugador> <niveles>
+      permission:
+      permission-message: No tienes permisos suficientes
+   nivelapocion:
+      description: Convierte niveles en pociones de experiencia.
+      usage: /nivelapocion <niveles>
+      permission:
+      permission-message: No tienes permisos suficientes
+   reglas:
+      description: Reglas del servidor.
+      usage: /<command>
+      permission:
+      permission-message: You don't have <permission>
+   operadores:
+      description: Operadores conectados del servidor.
+      usage: /<command>
+      permission:
+      permission-message: You don't have <permission>

@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1501530018 source:c:\users\ivancea\desktop\notifier\json.cpp
+	"JSON.hpp"
+
+1501530003 c:\users\ivancea\desktop\notifier\json.hpp
+	<vector>
+	<map>
+
+1501598482 source:c:\users\ivancea\desktop\notifier\main.cpp
+	<iostream>
+	<fstream>
+	<map>
+	<algorithm>
+	<ctime>
+	<cstring>
+	<windows.h>
+	"JSON.hpp"
+	"DllData.hpp"
+	"ServiceData.hpp"
+
+1501597953 c:\users\ivancea\desktop\notifier\dlldata.hpp
+	"DllProtocol.hpp"
+
+1501597953 c:\users\ivancea\desktop\notifier\dllprotocol.hpp
+	<string>
+	<vector>
+
+1501587055 c:\users\ivancea\desktop\notifier\servicedata.hpp
+	<vector>
+	<string>
+	"DllData.hpp"
+
+1501591628 source:c:\users\ivancea\desktop\notifier\dllforoelhackernet\main.cpp
+	"main.hpp"
+	<iostream>
+	<ctime>
+	<windows.h>
+	"http.h"
+
+1501588198 c:\users\ivancea\desktop\notifier\dllforoelhackernet\main.hpp
+	<windows.h>
+	"../DllProtocol.hpp"
+
+1501598300 source:c:\users\ivancea\desktop\notifier\dlltelegrambot\main.cpp
+	"main.hpp"
+	<iostream>
+	<map>
+	<list>
+	<thread>
+	<chrono>
+	"../JSON.hpp"
+	"http.h"
+
+1501598300 c:\users\ivancea\desktop\notifier\dlltelegrambot\main.hpp
+	<windows.h>
+	"../DllProtocol.hpp"
+
+1502052660 source:c:\users\ivancea\desktop\proyectos\notifier\json.cpp
+	"JSON.hpp"
+
+1502052660 c:\users\ivancea\desktop\proyectos\notifier\json.hpp
+	<vector>
+	<map>
+
+1502026451 source:c:\users\ivancea\desktop\proyectos\notifier\main.cpp
+	<iostream>
+	<fstream>
+	<map>
+	<algorithm>
+	<ctime>
+	<cstring>
+	<windows.h>
+	"JSON.hpp"
+	"DllData.hpp"
+	"ServiceData.hpp"
+
+1501770262 c:\users\ivancea\desktop\proyectos\notifier\dlldata.hpp
+	"DllProtocol.hpp"
+
+1501771840 c:\users\ivancea\desktop\proyectos\notifier\dllprotocol.hpp
+	<string>
+	<vector>
+
+1501587055 c:\users\ivancea\desktop\proyectos\notifier\servicedata.hpp
+	<vector>
+	<string>
+	"DllData.hpp"
+
+1501938989 source:c:\users\ivancea\desktop\proyectos\notifier\dllforoelhackernet\main.cpp
+	"main.hpp"
+	<iostream>
+	<ctime>
+	<windows.h>
+	"http.h"
+
+1501599770 c:\users\ivancea\desktop\proyectos\notifier\dllforoelhackernet\main.hpp
+	<windows.h>
+	"../DllProtocol.hpp"
+

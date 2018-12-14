@@ -1,0 +1,25 @@
+name: NamesId
+main: es.hol.ivancea.NamesId.NamesId
+version: 1.0
+author: ivancea96
+commands:
+   getnamebyid:
+      description: Consigue el nombre de un bloque a traves de su id. 
+      usage: /<command> <id>
+      permission: Op
+      permission-message: You don't have <permission>
+   getidbyname:
+      description: Consigue la id de un bloque a traves de su nombre.
+      usage: /<command> <nombre>
+      permission: Op
+      permission-message: You don't have <permission>
+   getblockinfo:
+      description: Consigue informacion del bloque al que se apunta.
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   enchant:
+      description: Encanta una herramienta o espada a cambio de 60 niveles.
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>

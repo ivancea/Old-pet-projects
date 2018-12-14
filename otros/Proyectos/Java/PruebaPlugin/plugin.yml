@@ -1,0 +1,125 @@
+name: PruebaPlugin
+main: es.hol.ivancea.PruebaPlugin.PruebaPlugin
+version: 1.0
+author: ivancea96
+commands:
+   rayo:
+      description: Crea un rayo
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   arbol:
+      description: Crea un arbol
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   villager:
+      description: Crea un villager
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   modoverdura:
+      description: Cambia el modo verdura de ON a OFF
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   mute:
+      description: Mutea a un jugador
+      usage: /<command> <name>
+      permission: Op
+      permission-message: You don't have <permission>
+   modoproyectil:
+      description: Cambia el modo proyectil de ON a OFF
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   modonuke:
+      description: Cambia el modo nuke de ON a OFF
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   mododiamante:
+      description: Cambia el modo diamante de ON a OFF
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   modotalar:
+      description: Cambia el modo talar de ON a OFF
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   setspawn:
+      description: Cambia la localizacion del spawn
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   tpspawn:
+      description: Te teletransporta al spawn
+      usage: /<command>
+      permission:
+      permission-message: You don't have <permission>
+   pvp:
+      description: Cambia entre pvp y no pvp
+      usage: /<command> or /<command> <player> para consola
+      permission: Op
+      permission-message: You don't have <permission>
+   vercoords:
+      description: Te muestra las coordenadas del jugador
+      usage: /<command> <player>
+      permission:
+      permission-message: You don't have <permission>
+   miscoords:
+      description: Dice por canal global tus coordenadas
+      usage: /<command>
+      permission:
+      permission-message: You don't have <permission>
+   vernivel:
+      description: Ves el nivel del jugador
+      usage: /<command> <player>
+      permission:
+      permission-message: You don't have <permission>
+   ponernivel:
+      description: Estableces un nuevo nivel al jugador
+      usage: /<command> <player> <nivel>
+      permission: Op
+      permission-message: You don't have <permission>
+   verid:
+      description: Ves a que corresponde una Id
+      usage: /<command> <id>
+      permission:
+      permission-message: You don't have <permission>
+   crearmundo:
+      description: Crea un mundo
+      usage: /<command> <nombre_del_mundo>
+      permission: Op
+      permission-message: You don't have <permission>
+   borrarmundo:
+      description: Borra un mundo
+      usage: /<command> <nombre_del_mundo>
+      permission: Op
+      permission-message: You don't have <permission>
+   vermundos:
+      description: Ves la lista con los mundos del servidor
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   tpmundo:
+      description: Te teletransporta al spawn de otro mundo
+      usage: /<command> <nombre_del_mundo>
+      permission:
+      permission-message: You don't have <permission>
+   protegerzona:
+      description: Protege una zona rectangular
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>
+   radionuke:
+      description: Establece el radio del modonuke
+      usage: /<command> <radio>
+      permission: Op
+      permission-message: You don't have <permission>
+   lluviadediamantes:
+      description: Llueven diamantes.
+      usage: /<command>
+      permission: Op
+      permission-message: You don't have <permission>

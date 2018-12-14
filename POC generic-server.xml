@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<generic-server>
+	<process name="primaryProcess" priority="normal" cpuLimit="100%">
+		<title>Chat server</title>
+	</process>
+		
+	<server name="primaryServer" process="primaryProcess">
+		<globals>
+			<var type="time" name="last_connection" initialization="0" />
+		</globals>
+		
+		<eventHandlers>
+			<event type="connection">
+				<action priority="1">
+					<set variable="last_connection" value="%now%" />
+				</action>
+				<action priority="0">
+					<broadcast>
+						<raw>Se ha conectado un cliente de IP: </raw>
+						<eventData get="IP" />
+						<raw> a las: </raw>
+						<varContent variable="last_connection" />
+					</broadcast>
+				</action>
+				<response type="string">
+					<raw>Bienvenido!</raw>
+				</response>
+			</event>
+			<event type="receive">
+				<define var="d">
+					<eventData get="data" />
+				</define>
+				<define var="conn">
+					<eventData get="connection" />
+				</define>
+				<if> <!-- Si responde al PING, lo marcamos -->
+					<condition>%d%="PONG"</condition>
+					<action>
+						<setVar from="%conn%" varName="ponged" value="true" />
+					</action>
+				</if>
+			</event>
+		</eventHandlers>
+		<timers>
+			<timer delay="10s">
+				<action>
+					<broadcast>
+						<raw>PING</raw>
+					</broadcast>
+					<create>
+						<timeout delay="2s">
+							<forEachConnection as="conn">
+								<define var="v">
+									<getVar from="%conn%" varName="ponged" />
+								</define>
+								<if>
+									<condition>%v%=true</condition>
+									<action> <!-- Ha respondido al PING, lo reiniciamos -->
+										<setVar from="%conn%" varName="ponged" value="false" />
+									</action>
+									<else> <!-- No ha respondido al PING en 2 segundos -->
+										<action>
+											<closeConnection connection="%conn%" />
+										</action>
+									</else>
+								</if>
+							</forEachConnection>
+						</timeout>
+					</create>
+				</action>
+			</timer>
+		</timers>
+	</server>
+</generic-server>

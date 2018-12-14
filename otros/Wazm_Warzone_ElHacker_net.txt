@@ -1,0 +1,34 @@
+pop e1x
+pop e2x
+clr e3x
+sum e3x e1x
+res e3x e2x
+mov e4x 3
+mul e4x 8
+mul e4x 8 < ~176
+clr e8x
+clr e9x
+sum e8x e0x
+sum e9x e0x
+sum e8x 9
+sum e8x 9
+sum e8x 0
+sum e9x 9
+sum e9x 9
+sum e9x 2
+mov e5x e0x
+mov e6x e0x
+sum e5x 4
+sum e6x 6
+dec e3x < e5x
+jnz e3x e6x
+jmp e8x
+dec e4x < e6x
+jnz e4x e5x
+jmp e9x
+mov e1x 2 < e8x
+push e1x
+int 0
+mov e1x 1 < e9x
+push e1x
+int 0

@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1422725775 source:c:\users\iván\desktop\physics\fpsmanager.cpp
+	"fpsmanager.h"
+	<windows.h>
+
+1422721297 c:\users\iván\desktop\physics\fpsmanager.h
+	"tickwaiter.h"
+	<ctime>
+
+1422721297 c:\users\iván\desktop\physics\tickwaiter.h
+	<ctime>
+
+1425650603 source:c:\users\iván\desktop\physics\main.cpp
+	<GL/glfw.h>
+	<iostream>
+	<list>
+	<thread>
+	<windows.h>
+	"tickwaiter.h"
+	"fpsmanager.h"
+	"particle.h"
+
+1370527504 c:\includes\glfw-2.7.9\include\gl\glfw.h
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1422307793 c:\users\iván\desktop\physics\weight.h
+	<list>
+	"physics.h"
+
+1422725774 source:c:\users\iván\desktop\physics\tickwaiter.cpp
+	"tickwaiter.h"
+	<ctime>
+	<windows.h>
+
+1422302586 source:c:\users\iván\desktop\physics\weight.cpp
+	"weight.h"
+	<list>
+
+1422302586 source:c:\users\iván\desktop\physics\charge.cpp
+	"charge.h"
+	<list>
+
+1422307788 c:\users\iván\desktop\physics\charge.h
+	<list>
+	"physics.h"
+
+1422623366 source:c:\users\iván\desktop\physics\drawable.cpp
+	"drawable.h"
+	<list>
+
+1422356874 c:\users\iván\desktop\physics\drawable.h
+	<list>
+
+1422303104 c:\users\iván\desktop\physics\position.h
+
+1422303104 source:c:\users\iván\desktop\physics\position.cpp
+	"position.h"
+
+1422725038 c:\users\iván\desktop\physics\physics.h
+	<list>
+	"vec.hpp"
+
+1422622585 c:\users\iván\desktop\physics\vec.hpp
+	<cmath>
+
+1425650637 source:c:\users\iván\desktop\physics\physics.cpp
+	"physics.h"
+	<list>
+
+1422617409 source:c:\users\iván\desktop\physics\particle.cpp
+	"particle.h"
+	<GL/glfw.h>
+	"vec.hpp"
+
+1422725047 c:\users\iván\desktop\physics\particle.h
+	"vec.hpp"
+	"drawable.h"
+	"physics.h"
+
+1422626968 source:c:\users\ivancea\desktop\proyectos\physics\drawable.cpp
+	"drawable.h"
+	<list>
+
+1422360476 c:\users\ivancea\desktop\proyectos\physics\drawable.h
+	<list>
+
+1422729376 source:c:\users\ivancea\desktop\proyectos\physics\fpsmanager.cpp
+	"fpsmanager.h"
+	<windows.h>
+
+1422724898 c:\users\ivancea\desktop\proyectos\physics\fpsmanager.h
+	"tickwaiter.h"
+	<ctime>
+
+1422724898 c:\users\ivancea\desktop\proyectos\physics\tickwaiter.h
+	<ctime>
+
+1422621010 source:c:\users\ivancea\desktop\proyectos\physics\particle.cpp
+	"particle.h"
+	<GL/glfw.h>
+	"vec.hpp"
+
+1422728648 c:\users\ivancea\desktop\proyectos\physics\particle.h
+	"vec.hpp"
+	"drawable.h"
+	"physics.h"
+
+1422626186 c:\users\ivancea\desktop\proyectos\physics\vec.hpp
+	<cmath>
+
+1422728640 c:\users\ivancea\desktop\proyectos\physics\physics.h
+	<list>
+	"vec.hpp"
+
+1422729376 source:c:\users\ivancea\desktop\proyectos\physics\tickwaiter.cpp
+	"tickwaiter.h"
+	<ctime>
+	<windows.h>
+

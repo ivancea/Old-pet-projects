@@ -1,0 +1,20 @@
+para empezando
+ponfoco [pantalla de mswlogo]
+quitarraton
+ponraton [][][][][sl ponpos posraton si pixel=[0 0 0] [final 0] si pixel=[255 0 0] [final 1]]
+fin
+
+para final :n
+quitarraton
+bp gd 90
+sisino :n=1 [rotula [Lo has conseguido.]] [rotula [Has fallado.]]
+fin
+
+para juego
+ponfoco [pantalla de mswlogo]
+bp poncl [0 0 0] ot sl ponpos [-100 -100] ponrumbo 0 pongrosor [5 5] bl av 200 gd 90 av 200 gd 90 av 200 gd 90 av 200 gd 90 av 50 gd 90 av 150 gi 90 sl av 50 bl gd 90 av 50 gi 180 av 150 
+sl ponpos [-100 50] ponrumbo 90 bl av 150 sl ponpos [-75 75]
+pongrosor [10 10] poncl [255 0 0] bl av 1 sl ponpos [-75 -75]
+poncl [0 0 255] bl av 1 es [Click al círculo azul para empezar...]
+ponraton [][si pixel=[0 0 255] [empezando]][][][sl ponpos posraton]
+fin

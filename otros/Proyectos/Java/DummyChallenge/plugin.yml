@@ -1,0 +1,17 @@
+name: MPFChallenge
+main: es.com.blogspot.code0x66.DummyChallenge.DummyChallenge
+version: 1.0
+author: ivancea
+commands:
+   placempf:
+      description: Put a MPF until 10 seconds
+      usage: /<command>
+   mpfscore:
+      description: See the MPF record
+      usage: /<command> [player]
+   mpftop:
+      description: See the TOP MPF records
+      usage: /<command>
+   mpfrestart:
+      description: Restart the MPF records
+      usage: /<command>

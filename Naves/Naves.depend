@@ -1,0 +1,154 @@
+# depslib dependency file v1.0
+1420912898 source:c:\users\iván\desktop\naves\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<list>
+	<ctime>
+	<GL/glfw.h>
+	<windows.h>
+	<thread>
+	"vec.hpp"
+	"volatil.h"
+	"nave.h"
+	"shoot.h"
+	"res.h"
+	"tickwaiter.h"
+	"fpsmanager.h"
+	"bullet.h"
+
+1370527504 c:\includes\glfw-2.7.9\include\gl\glfw.h
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1405944518 source:c:\users\iván\desktop\naves\nave.cpp
+	<GL/glfw.h>
+	<cmath>
+	"nave.h"
+	"vec.hpp"
+
+1405940363 c:\users\iván\desktop\naves\nave.h
+	"vec.hpp"
+
+1405706075 c:\users\iván\desktop\naves\vec.hpp
+	<cmath>
+
+1405897066 c:\users\iván\desktop\naves\shoot.h
+	"vec.hpp"
+	"volatil.h"
+
+1405898041 source:c:\users\iván\desktop\naves\shoot.cpp
+	<GL/glfw.h>
+	"shoot.h"
+
+1405866849 c:\users\iván\desktop\naves\res.h
+
+1405867316 source:c:\users\iván\desktop\naves\res.rc
+	"res.h"
+
+1405898358 c:\users\iván\desktop\naves\volatil.h
+	<list>
+
+1405898447 source:c:\users\iván\desktop\naves\volatil.cpp
+	"volatil.h"
+
+1420991293 c:\users\iván\desktop\naves\tickwaiter.h
+	<ctime>
+
+1405948537 source:c:\users\iván\desktop\naves\tickwaiter.cpp
+	"tickwaiter.h"
+	<ctime>
+	<windows.h>
+
+1405951279 source:c:\users\iván\desktop\naves\fpsmanager.cpp
+	"fpsmanager.h"
+
+1405950694 c:\users\iván\desktop\naves\fpsmanager.h
+	"tickwaiter.h"
+	<ctime>
+
+1406075841 source:c:\users\iván\desktop\naves\sockets.cpp
+	"sockets.h"
+	<cstring>
+	<vector>
+	<ws2tcpip.h>
+
+1406075823 c:\users\iván\desktop\naves\sockets.h
+	<string>
+	<vector>
+	<windows.h>
+
+1420913027 source:c:\users\iván\desktop\naves\bullet.cpp
+	"bullet.h"
+	<GL/glfw.h>
+	<vector>
+	"vec.hpp"
+	"nave.h"
+
+1420910796 c:\users\iván\desktop\naves\bullet.h
+	<vector>
+	"vec.hpp"
+	"nave.h"
+
+1420916628 source:c:\users\ivancea\desktop\proyectos\naves\bullet.cpp
+	"bullet.h"
+	<GL/glfw.h>
+	<vector>
+	"vec.hpp"
+	"nave.h"
+
+1420914398 c:\users\ivancea\desktop\proyectos\naves\bullet.h
+	<vector>
+	"vec.hpp"
+	"nave.h"
+
+1405716876 c:\users\ivancea\desktop\proyectos\naves\vec.hpp
+	<cmath>
+
+1405951164 c:\users\ivancea\desktop\proyectos\naves\nave.h
+	"vec.hpp"
+
+1405962080 source:c:\users\ivancea\desktop\proyectos\naves\fpsmanager.cpp
+	"fpsmanager.h"
+
+1405961496 c:\users\ivancea\desktop\proyectos\naves\fpsmanager.h
+	"tickwaiter.h"
+	<ctime>
+
+1420994894 c:\users\ivancea\desktop\proyectos\naves\tickwaiter.h
+	<ctime>
+
+1405955320 source:c:\users\ivancea\desktop\proyectos\naves\nave.cpp
+	<GL/glfw.h>
+	<cmath>
+	"nave.h"
+	"vec.hpp"
+
+1405878118 source:c:\users\ivancea\desktop\proyectos\naves\res.rc
+	"res.h"
+
+1405877650 c:\users\ivancea\desktop\proyectos\naves\res.h
+
+1405908842 source:c:\users\ivancea\desktop\proyectos\naves\shoot.cpp
+	<GL/glfw.h>
+	"shoot.h"
+
+1405907868 c:\users\ivancea\desktop\proyectos\naves\shoot.h
+	"vec.hpp"
+	"volatil.h"
+
+1405909160 c:\users\ivancea\desktop\proyectos\naves\volatil.h
+	<list>
+
+1405959338 source:c:\users\ivancea\desktop\proyectos\naves\tickwaiter.cpp
+	"tickwaiter.h"
+	<ctime>
+	<windows.h>
+
+1405909248 source:c:\users\ivancea\desktop\proyectos\naves\volatil.cpp
+	"volatil.h"
+

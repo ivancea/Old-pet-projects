@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1479161318 source:c:\users\ivancea\desktop\chartmaker\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Chart.hpp"
+
+1479161897 c:\users\ivancea\desktop\chartmaker\chart.hpp
+	<fstream>
+	<vector>
+	<cstdarg>
+
+1479224864 source:c:\users\ivancea\desktop\proyectos\chartmaker\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Chart.hpp"
+
+1479161897 c:\users\ivancea\desktop\proyectos\chartmaker\chart.hpp
+	<fstream>
+	<vector>
+	<cstdarg>
+

@@ -1,0 +1,174 @@
+# depslib dependency file v1.0
+1402668280 source:c:\users\iván\desktop\pruebaglfw ivancea\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<GL/glfw.h>
+	"Stuff.hpp"
+	"Camara.hpp"
+	"FpsManager.hpp"
+	"Vec.hpp"
+	"Objeto.hpp"
+	"OBJ_Model.hpp"
+
+1370523904 c:\includes\glfw-2.7.9\include\gl\glfw.h
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1402405438 c:\users\iván\desktop\pruebaglfw ivancea\basic_stuff.h
+
+1402568833 c:\users\iván\desktop\pruebaglfw ivancea\vec.hpp
+	<cmath>
+
+1402681543 source:c:\users\iván\desktop\pruebaglfw ivancea\camara.cpp
+	"Camara.hpp"
+
+1402565521 c:\users\iván\desktop\pruebaglfw ivancea\camara.hpp
+	<iostream>
+	<math.h>
+	<GL/glfw.h>
+	"Vec.hpp"
+	"Objeto.hpp"
+
+1402411337 c:\users\iván\desktop\pruebaglfw ivancea\object.hpp
+	"Vec.hpp"
+	<vector>
+	<GL/glfw.h>
+
+1402693905 source:c:\users\iván\desktop\pruebaglfw ivancea\obj_model.cpp
+	<vector>
+	<GL/glfw.h>
+	<fstream>
+	<iostream>
+	<string>
+	<time.h>
+	<cstdlib>
+	"Stuff.hpp"
+	"Vec.hpp"
+	"OBJ_Model.hpp"
+
+1402693688 c:\users\iván\desktop\pruebaglfw ivancea\obj_model.hpp
+	<iostream>
+	<vector>
+	<map>
+	<GL/glfw.h>
+	"Vec.hpp"
+	"BoundingBox.hpp"
+
+1402679387 c:\users\iván\desktop\pruebaglfw ivancea\fpsmanager.hpp
+	<string>
+	<sstream>
+	<GL/glfw.h>
+
+1402568833 c:\users\iván\desktop\pruebaglfw ivancea\stuff.hpp
+	<GL/glfw.h>
+	"Vec.hpp"
+
+1402568833 source:c:\users\iván\desktop\pruebaglfw ivancea\stuff.cpp
+	"Stuff.hpp"
+	<GL/glfw.h>
+	"Vec.hpp"
+	<iostream>
+
+1402693253 source:c:\users\iván\desktop\pruebaglfw ivancea\objeto.cpp
+	"Vec.hpp"
+	<vector>
+	<GL/glfw.h>
+	"Objeto.hpp"
+
+1402572083 c:\users\iván\desktop\pruebaglfw ivancea\objeto.hpp
+	"Vec.hpp"
+	<vector>
+	<GL/glfw.h>
+	"OBJ_Model.hpp"
+
+1402573029 source:c:\users\iván\desktop\pruebaglfw ivancea\boundingbox.cpp
+	"BoundingBox.hpp"
+	"Vec.hpp"
+
+1402573018 c:\users\iván\desktop\pruebaglfw ivancea\boundingbox.hpp
+	"Vec.hpp"
+
+1402576630 source:c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\boundingbox.cpp
+	"BoundingBox.hpp"
+	"Vec.hpp"
+
+1402576620 c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\boundingbox.hpp
+	"Vec.hpp"
+
+1402572434 c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\vec.hpp
+	<cmath>
+
+1402685144 source:c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\camara.cpp
+	"Camara.hpp"
+
+1402569122 c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\camara.hpp
+	<iostream>
+	<math.h>
+	<GL/glfw.h>
+	"Vec.hpp"
+	"Objeto.hpp"
+
+1402575684 c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\objeto.hpp
+	"Vec.hpp"
+	<vector>
+	<GL/glfw.h>
+	"OBJ_Model.hpp"
+
+1439861401 c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\obj_model.hpp
+	<iostream>
+	<vector>
+	<map>
+	<GL/glfw.h>
+	"Vec.hpp"
+	"BoundingBox.hpp"
+
+1439861955 source:c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<GL/glfw.h>
+	"Stuff.hpp"
+	"Camara.hpp"
+	"FpsManager.hpp"
+	"Vec.hpp"
+	"Objeto.hpp"
+	"OBJ_Model.hpp"
+
+1402572434 c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\stuff.hpp
+	<GL/glfw.h>
+	"Vec.hpp"
+
+1402682988 c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\fpsmanager.hpp
+	<string>
+	<sstream>
+	<GL/glfw.h>
+
+1439861456 source:c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\obj_model.cpp
+	<vector>
+	<GL/glfw.h>
+	<fstream>
+	<iostream>
+	<string>
+	<time.h>
+	<cstdlib>
+	"Stuff.hpp"
+	"Vec.hpp"
+	"OBJ_Model.hpp"
+
+1402696854 source:c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\objeto.cpp
+	"Vec.hpp"
+	<vector>
+	<GL/glfw.h>
+	"Objeto.hpp"
+
+1439860869 source:c:\users\ivancea\desktop\proyectos\pruebaglfw ivancea\stuff.cpp
+	"Stuff.hpp"
+	<GL/glfw.h>
+	"Vec.hpp"
+	<iostream>
+

@@ -1,0 +1,7 @@
+bin
+obj
+.settings
+.metadata
+.recommenders
+build
+libs
