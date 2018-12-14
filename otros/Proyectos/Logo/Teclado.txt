@@ -1,0 +1,15 @@
+para pulsado
+si y y y (primero posraton)>-100 (primero posraton)<-50 (ultimo posraton)>-100 (ultimo posraton)<-50 [es "A]
+si y y y (primero posraton)>0 (primero posraton)<50 (ultimo posraton)>-100 (ultimo posraton)<-50 [es "B]
+fin
+
+para teclas
+bp
+sl ponpos [-100 -100] ponrumbo 0 bl av 50 gd 90 av 50 gd 90 av 50 gd 90 av 50 gd 90
+sl ponpos [0 -100] ponrumbo 0 bl av 50 gd 90 av 50 gd 90 av 50 gd 90 av 50 gd 90
+sl ponpos [-75 -75] ponrumbo 90 bl rotula "A
+sl ponpos [25 -75] ponrumbo 90 bl rotula "B
+sl ponpos [0 0] ponrumbo 0 bl
+ponraton [pulsado][][][][]
+fin
+

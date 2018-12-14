@@ -1,0 +1,36 @@
+para calc
+haz "n 0
+haz "p 0
+haz "h 1
+CREAVENTANA "root "calculadora "Calculadora 100 100 210 300 []
+ponfoco ["Calculadora]
+creaestatico "calculadora "text [0] 10 10 280 20
+creaboton "calculadora "b1 [1] 10 30 40 40 [haz "n :n*10+1 actualizaestatico "text :n]
+creaboton "calculadora "b2 [2] 60 30 40 40 [haz "n :n*10+2 actualizaestatico "text :n]
+creaboton "calculadora "b3 [3] 110 30 40 40 [haz "n :n*10+3 actualizaestatico "text :n]
+creaboton "calculadora "b4 [4] 10 80 40 40 [haz "n :n*10+4 actualizaestatico "text :n]
+creaboton "calculadora "b5 [5] 60 80 40 40 [haz "n :n*10+5 actualizaestatico "text :n]
+creaboton "calculadora "b6 [6] 110 80 40 40 [haz "n :n*10+6 actualizaestatico "text :n]
+creaboton "calculadora "b7 [7] 10 130 40 40 [haz "n :n*10+7 actualizaestatico "text :n]
+creaboton "calculadora "b8 [8] 60 130 40 40 [haz "n :n*10+8 actualizaestatico "text :n]
+creaboton "calculadora "b9 [9] 110 130 40 40 [haz "n :n*10+9 actualizaestatico "text :n]
+creaboton "calculadora "b0 [0] 60 180 40 40 [haz "n :n*10+0 actualizaestatico "text :n]
+creaboton "calculadora "bpi [PI] 110 230 40 40 [haz "n pi actualizaestatico "text :n]
+creaboton "calculadora "bborrar [C] 10 180 40 40 [haz "h 1 haz "n 0 haz "p 0 actualizaestatico "text :n]
+creaboton "calculadora "bigual [=] 110 180 40 40 [sisino y :h=4 :n=0 [haz "n "ERROR] [haz "n calcula] actualizaestatico "text :n haz "p 0 haz "n 0 haz "h 1]
+creaboton "calculadora "bmult [*] 160 130 40 40 [haz "h "3 haz "p :n haz "n 0 actualizaestatico "text 0]
+creaboton "calculadora "bpotencia [^] 160 230 40 40 [haz "h "5 haz "p :n haz "n 0 actualizaestatico "text 0]
+creaboton "calculadora "bdiv [/] 160 180 40 40 [haz "h "4 haz "p :n haz "n 0 actualizaestatico "text 0]
+creaboton "calculadora "bsum [+] 160 30 40 40 [haz "h "1 haz "p :n haz "n 0 actualizaestatico "text 0]
+creaboton "calculadora "brest [-] 160 80 40 40 [haz "h "2 haz "p :n haz "n 0 actualizaestatico "text 0] 
+creaboton "calculadora "bcerrar [Cerrar] 60 230 40 40 [borraventana "Calculadora] 
+fin
+
+para calcula
+si :h=1 [dev (:p)+(:n)]
+si :h=2 [dev (:p)-(:n)]
+si :h=3 [dev (:p)*(:n)]
+si :h=4 [dev (:p)/(:n)]
+si :h=5 [dev potencia :p :n]
+fin
+

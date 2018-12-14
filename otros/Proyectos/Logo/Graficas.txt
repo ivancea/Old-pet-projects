@@ -1,0 +1,39 @@
+para graficapotencia
+sl ponpos [0 0] bl poncl 1 av 400 re 800 av 400 gd 90 av 400 re 800 av 400 gi 90 poncl 0
+haz "t 0 haz "x 0 haz "y 0
+haz.hasta [haz "y potencia :x 2 ponpos fr :x*10 :y haz "x :x+0.1 haz "t :t+1 si :x>500 [haz "t 1000] si :y>500 [haz "t 1000]] [:t=1000]
+sl ponpos [0 0] bl
+gd 90 sl av 5 rotula [y = x^2] re 5 gi 90 bl
+fin
+
+para graficaseno
+sl ponpos [0 0] bl poncl 1 av 400 re 800 av 400 gd 90 av 400 re 800 av 400 gi 90 poncl 0
+haz "t 0 haz "x 0 haz "y 0
+haz.hasta [haz "y sen :x ponpos fr :x :y*100 haz "x :x+1 haz "t :t+1 si :x>500 [haz "t 1000] si :y>500 [haz "t 1000]] [:t=1000]
+sl ponpos [0 0] bl
+gd 90 sl av 5 rotula [y = sen x] re 5 gi 90 bl
+fin
+
+para graficatangente
+sl ponpos [0 0] bl poncl 1 av 400 re 800 av 400 gd 90 av 400 re 800 av 400 gi 90 poncl 0
+haz "t 0 haz "x 0 haz "y 0
+haz.hasta [haz "y tan :x ponpos fr :x :y*10 haz "x :x+1 
+si :x=89 [haz "x 92 sl ponpos fr 92 -:y*10 bl]
+si :x=269 [haz "x 272 sl ponpos fr 272 -:y*10 bl]
+si :x=449 [haz "x 452 sl ponpos fr 452 -:y*10 bl]
+si :x=629 [haz "x 632 sl ponpos fr 632 -:y*10 bl]
+haz "t :t+1 si :x>500 [haz "t 1000] si :y>500 [haz "t 1000]] [:t=1000]
+sl ponpos [0 0] bl
+gd 90 sl av 5 rotula [y = tan x] re 5 gi 90 bl
+fin
+
+para cuadricula :x :y
+haz "e rumbo
+haz "a pos
+ponrumbo 0
+repite 1000/:x [av 1000 gd 90 sl av :x gi 90 bl]
+gd 90
+repite 1000/:y [av 1000 gd 90 sl av :y gi 90 bl]
+gi 90
+sl ponpos :a bl ponrumbo :e
+fin

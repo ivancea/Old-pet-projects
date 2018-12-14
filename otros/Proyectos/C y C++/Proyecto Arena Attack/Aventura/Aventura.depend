@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1372546140 source:c:\users\iván\desktop\aventura\main.cpp
+	<iostream>
+	"personaje.h"
+	<cstdlib>
+	<time.h>
+
+1372524547 c:\users\iván\desktop\aventura\include\personaje.h
+
+1372542946 c:\users\iván\desktop\aventura\personaje.h
+
+1372545789 source:c:\users\iván\desktop\aventura\personaje.cpp
+	"personaje.h"
+
+1372855571 source:c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\practicas c y c++\aventura\main.cpp
+	<iostream>
+	"personaje.h"
+	<cstdlib>
+	<time.h>
+
+1372812019 c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\practicas c y c++\aventura\personaje.h
+
+1372850684 source:c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\practicas c y c++\aventura\personaje.cpp
+	"personaje.h"
+	<cstdlib>
+	<time.h>
+
+1372963496 source:c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\practicas c y c++\proyecto arena attack\aventura\main.cpp
+	<iostream>
+	"personaje.h"
+	<cstdlib>
+	<time.h>
+
+1372812019 c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\practicas c y c++\proyecto arena attack\aventura\personaje.h
+
+1372860895 source:c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\practicas c y c++\proyecto arena attack\aventura\personaje.cpp
+	"personaje.h"
+	<cstdlib>
+	<time.h>
+

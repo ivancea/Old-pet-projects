@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1421097562 source:c:\users\iván\desktop\ajedrez\main.cpp
+	<iostream>
+	<SFML/Network.hpp>
+	<SFML/Graphics.hpp>
+	"board.h"
+
+1419802281 source:c:\users\iván\desktop\ajedrez\piececlass.cpp
+	"piececlass.h"
+
+1419802873 c:\users\iván\desktop\ajedrez\piececlass.h
+	<string>
+
+1421145778 source:c:\users\iván\desktop\ajedrez\board.cpp
+	"board.h"
+	<windows.h>
+	<SFML/Graphics.hpp>
+	<cstring>
+	"pieces.h"
+
+1421145821 c:\users\iván\desktop\ajedrez\board.h
+	<vector>
+	"pieces.h"
+
+1419803001 source:c:\users\iván\desktop\ajedrez\piece.cpp
+	"piece.h"
+
+1419803521 c:\users\iván\desktop\ajedrez\piece.h
+	<cstdint>
+
+1421145837 c:\users\iván\desktop\ajedrez\pieces.h
+	<cstring>
+	<SFML/Graphics.hpp>
+	<windows.h>
+
+1502884373 source:c:\users\ivancea\desktop\proyectos\ajedrez\board.cpp
+	"board.h"
+	<windows.h>
+	<SFML/Graphics.hpp>
+	<cstring>
+	"pieces.h"
+
+1421149422 c:\users\ivancea\desktop\proyectos\ajedrez\board.h
+	<vector>
+	"pieces.h"
+
+1421149438 c:\users\ivancea\desktop\proyectos\ajedrez\pieces.h
+	<cstring>
+	<SFML/Graphics.hpp>
+	<windows.h>
+

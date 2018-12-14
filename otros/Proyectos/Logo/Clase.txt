@@ -1,0 +1,21 @@
+para hexagono :l :c :f :r
+bp bl poncl :c 
+repite 6 [av :l gd 60]
+sl
+poncolorrelleno :r
+gd 90
+av 1
+rellena
+poncolorrelleno :f
+re 2
+rellena
+av 1
+gi 90
+bl
+fin
+
+para rectangulocirculo :l :a :r :c :v
+; -l lado -a ancho -r radio -c colorrectangulo -v colorcirculo
+haz "p pos
+av :a gd 90 av :l gd 90 av :a gd 90 av :l gd 135 sl av 1 poncolorrelleno :c rellena re 1 gd 45 av :l+250 gi 90 av :r bl circulo :r av 1 sl poncolorrelleno :v rellena sl ponpos :p bl
+fin

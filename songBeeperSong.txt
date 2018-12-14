@@ -1,0 +1,34 @@
+200
+
+LA4 2
+MI4 1
+FA4 1
+  
+SOL4 2
+FA4 1
+MI4 1
+  
+RE4 2
+RE4 1
+FA4 1
+  
+LA4 2
+SOL4 1
+FA4 1
+  
+MI4 2
+MI4 1
+FA4 1
+  
+SOL4 2
+LA4 2
+  
+FA4 2
+RE4 2
+  
+RE4 4
+  
+1
+
+SOL4 2
+LA4# 1

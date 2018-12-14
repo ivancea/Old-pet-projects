@@ -1,0 +1,30 @@
+"Wow.exe"+7EBA64
+-----------------
+00000000: no buscar nada
+00A11D68: misiones de bajo nivel
+00A11D54: buzón
+00A11D40: banquero
+00A11D2C: subastador
+00A11D18: instructor de profesion
+00A11D04: instructor de clase
+00A11CF0: maestro de batalla
+00A11CC8: maestro de vuelo
+00A11CB4: tabernero
+00A11CA0: componentes
+00A11C64: comida y bebida
+00A11C50: reparación
+00A11CDC: maestro de establos
+00A11C8C: munición
+00A11C78: venenos
+___________________________________
+
+[ECX+21B8]Buscar de cazador
+------------------------------
+00000001: bestias
+00000004: demonios
+00000008: elementales
+00000010: gigantes
+00000020: no-muertos
+00000040: humanoides
+
+

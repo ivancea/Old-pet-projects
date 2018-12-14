@@ -1,0 +1,1 @@
+#define SHOOT 100

@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1410641209 source:c:\users\iván\desktop\server http\sockets.cpp
+	"sockets.h"
+	<cstring>
+	<vector>
+	<ws2tcpip.h>
+
+1410641209 c:\users\iván\desktop\server http\sockets.h
+	<string>
+	<vector>
+	<windows.h>
+
+1410641603 source:c:\users\iván\desktop\server http\main.cpp
+	<iostream>
+	<fstream>
+	<thread>
+	<vector>
+	<map>
+	<ctime>
+	<windows.h>
+	<Wininet.h>
+	"thmanager.h"
+	"sockets.h"
+
+1482785535 source:c:\users\ivancea\desktop\proyectos\server http\main.cpp
+	<iostream>
+	<fstream>
+	<thread>
+	<vector>
+	<map>
+	<ctime>
+	<algorithm>
+	<mutex>
+	<windows.h>
+	<Wininet.h>
+	"thmanager.h"
+	"strings.h"
+	"sockets.cpp"
+	"shared/protocol.h"
+
+1480089785 source:c:\users\ivancea\desktop\proyectos\server http\shared\requestdata.cpp
+	"RequestData.h"
+
+1480604768 c:\users\ivancea\desktop\proyectos\server http\shared\requestdata.h
+	<map>
+	<vector>
+	<string>
+
+1482786784 c:\users\ivancea\desktop\proyectos\server http\shared\protocol.h
+	"RequestData.h"
+
+1480603441 source:c:\users\ivancea\desktop\proyectos\server http\dll\main.cpp
+	"main.h"
+	<iostream>
+	<list>
+	<regex>
+	<ctime>
+	<sstream>
+	<iomanip>
+	"http.h"
+
+1480161802 c:\users\ivancea\desktop\proyectos\server http\dll\main.h
+	<windows.h>
+	"../shared/protocol.h"
+
+1457623601 c:\users\ivancea\desktop\proyectos\server http\dll\http_m.h
+	<map>
+	<vector>
+	<openssl/bio.h>
+	<openssl/ssl.h>
+	<windows.h>
+	"sockets_m.h"
+	"strings_m.h"
+
+1457623296 c:\users\ivancea\desktop\proyectos\server http\dll\sockets_m.h
+	<string>
+	<vector>
+	<winsock2.h>
+	<windows.h>
+
+1433848103 c:\users\ivancea\desktop\proyectos\server http\dll\strings_m.h
+	<vector>
+	<string>
+	<cmath>
+	<fstream>
+
+1468676522 source:c:\users\ivancea\desktop\proyectos\server http\dll\sockets_m.cpp
+	"sockets_m.h"
+	<cstring>
+	<vector>
+	<ws2tcpip.h>
+
+1490808879 source:c:\users\ivanc\desktop\proyectos\server http\main.cpp
+	<iostream>
+	<fstream>
+	<thread>
+	<vector>
+	<map>
+	<ctime>
+	<algorithm>
+	<mutex>
+	<windows.h>
+	<Wininet.h>
+	"thmanager.h"
+	"strings.h"
+	"sockets.cpp"
+	"shared/protocol.h"
+
+1490808879 c:\users\ivanc\desktop\proyectos\server http\shared\protocol.h
+	"RequestData.h"
+
+1490808879 c:\users\ivanc\desktop\proyectos\server http\shared\requestdata.h
+	<map>
+	<vector>
+	<string>
+
+1490808879 source:c:\users\ivanc\desktop\proyectos\server http\shared\requestdata.cpp
+	"RequestData.h"
+

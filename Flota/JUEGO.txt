@@ -1,0 +1,26 @@
+Tablero rectangular, 2 mitades, una por equipo.
+Al comienzo, cada uno coloca sus tropas y su rey. El rey es visible, las tropas no.
+Cada turno, los jugadores mueven sus tropas, y echan bombas o cepos.
+Si dos tropas enemigas chocan, se matan.
+
+El rey no puede salir de su mitad.
+El rey es inmortal hasta que se acaban sus tropas.
+El rey mata a las tropas enemigas.
+
+¿Diferentes tipos de tropas?
+Caballos, arqueros, piqueros.
+Piqueros matan caballos, caballos matan arqueros, arqueros matan piqueros.
+
+¿Habilidades?
+Revelar una casilla: 2 por turno
+Cepo: 1 por turno (hasta final de turno o X turnos)
+Dinamita: 1 por turno (mata en forma de +, de X*X casillas)
+
+Turnos compartidos e inmediatos, o turnos por orden?
+
+
+MODOS DE JUEGO / OPCIONES:
+-Unidades con campo de vision
+-Revelar casilla revela casillas a ambos jugadores ("Limpiar niebla")
+-Dividir tablero en 3 espacios, los de cada jugador (visibles para ellos o no), y un espacio en el medio
+-Tableros de diferentes formas? Peligroso para programarlo. Pero las zonas de cada jugador podrían moverse

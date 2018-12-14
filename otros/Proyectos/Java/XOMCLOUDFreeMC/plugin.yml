@@ -1,0 +1,8 @@
+name: XOMCLOUDFreeMC
+main: es.com.blogspot.code0x66.XOMCLOUDFreeMC.XOMCLOUDFreeMC
+version: 1.0
+author: ivancea
+commands:
+   report:
+      description: Report the server 
+      usage: /<command> <reason>

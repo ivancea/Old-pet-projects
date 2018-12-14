@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <up_axis>Z_UP</up_axis>
+    </asset>
+    <library_visual_scenes>
+        <visual_scene id="VS1">
+            <node>
+                <instance_geometry url="#GEO1" />
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <library_geometries>
+        <geometry id="GEO1">
+            <mesh>
+                <source id="SOURCE1">
+                    <float_array id="FLOATARRAY1" count="12">62.20472 62.20472 0 0 0 0 0 62.20472 0 62.20472 0 0</float_array>
+                    <technique_common>
+                        <accessor count="4" source="#FLOATARRAY1" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="VERTICES1">
+                    <input semantic="POSITION" source="#SOURCE1" />
+                </vertices>
+                <triangles count="2">
+                    <input offset="0" semantic="VERTEX" source="#VERTICES1" />
+                    <p>0 1 2 1 0 3</p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <scene>
+        <instance_visual_scene url="#VS1" />
+    </scene>
+</COLLADA>

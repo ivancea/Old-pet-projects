@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1418483755 source:c:\users\iván\desktop\oraciones\main.cpp
+	<iostream>
+	<ctime>
+	<clocale>
+	<fstream>
+	<vector>
+	"cargaPalabras.h"
+	"verbos.h"
+	"sintagmas/nominal.h"
+
+1418482941 c:\users\iván\desktop\oraciones\verbos.h
+	<iostream>
+
+1418482941 source:c:\users\iván\desktop\oraciones\verbos.cpp
+	"verbos.h"
+	<iostream>
+
+1418483604 source:c:\users\iván\desktop\oraciones\sintagmas\adjetival.cpp
+	"adjetival.h"
+	<iostream>
+	<vector>
+	"../cargaPalabras.h"
+	"../verbos.h"
+
+1418313628 c:\users\iván\desktop\oraciones\sintagmas\adjetival.h
+	<iostream>
+
+1418483604 source:c:\users\iván\desktop\oraciones\sintagmas\nominal.cpp
+	"nominal.h"
+	"adjetival.h"
+	<iostream>
+	<vector>
+
+1418312608 c:\users\iván\desktop\oraciones\sintagmas\nominal.h
+	<iostream>
+
+1418424818 c:\users\iván\desktop\oraciones\cargapalabras.h
+	<fstream>
+	<vector>
+
+1418424818 source:c:\users\iván\desktop\oraciones\cargapalabras.cpp
+	"cargaPalabras.h"
+	<fstream>
+	<vector>
+
+1418428420 source:c:\users\ivancea\desktop\proyectos\oraciones\cargapalabras.cpp
+	"cargaPalabras.h"
+	<fstream>
+	<vector>
+
+1418428420 c:\users\ivancea\desktop\proyectos\oraciones\cargapalabras.h
+	<fstream>
+	<vector>
+
+1418487206 source:c:\users\ivancea\desktop\proyectos\oraciones\sintagmas\adjetival.cpp
+	"adjetival.h"
+	<iostream>
+	<vector>
+	"../cargaPalabras.h"
+	"../verbos.h"
+
+1418317230 c:\users\ivancea\desktop\proyectos\oraciones\sintagmas\adjetival.h
+	<iostream>
+
+1418486542 c:\users\ivancea\desktop\proyectos\oraciones\verbos.h
+	<iostream>
+
+1418487206 source:c:\users\ivancea\desktop\proyectos\oraciones\sintagmas\nominal.cpp
+	"nominal.h"
+	"adjetival.h"
+	<iostream>
+	<vector>
+
+1418316210 c:\users\ivancea\desktop\proyectos\oraciones\sintagmas\nominal.h
+	<iostream>
+
+1418486542 source:c:\users\ivancea\desktop\proyectos\oraciones\verbos.cpp
+	"verbos.h"
+	<iostream>
+
+1430079615 source:c:\users\ivancea\desktop\proyectos\oraciones\main.cpp
+	<iostream>
+	<ctime>
+	<clocale>
+	<fstream>
+	<vector>
+	"cargaPalabras.h"
+	"verbos.h"
+	"sintagmas/nominal.h"
+

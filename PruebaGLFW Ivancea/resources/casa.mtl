@@ -1,0 +1,222 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Color_D01
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.749020 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Color_008
+Ka 0.000000 0.000000 0.000000
+Kd 0.117647 0.117647 0.117647
+Ks 0.330000 0.330000 0.330000
+
+newmtl Brick_Red
+Ka 0.000000 0.000000 0.000000
+Kd 0.666667 0.509804 0.396078
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Brick_Red.tga
+
+newmtl Stone_Blocks_Ashlar
+Ka 0.000000 0.000000 0.000000
+Kd 0.635294 0.517647 0.415686
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Stone_Blocks_Ashlar.tga
+
+newmtl Material2
+Ka 0.000000 0.000000 0.000000
+Kd 0.925490 0.827451 0.631373
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Material2.tga
+
+newmtl Material1
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 0.156863 0.078431
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Material1.tga
+
+newmtl Color_009
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Roofing_Metal_Standing_Seam_Blue
+Ka 0.000000 0.000000 0.000000
+Kd 0.556863 0.556863 0.556863
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Roofing_Metal_Standing_Seam_Blue.tga
+
+newmtl Color_004
+Ka 0.000000 0.000000 0.000000
+Kd 0.556863 0.556863 0.556863
+Ks 0.330000 0.330000 0.330000
+
+newmtl Color_001
+Ka 0.000000 0.000000 0.000000
+Kd 0.886275 0.886275 0.886275
+Ks 0.330000 0.330000 0.330000
+
+newmtl Stone_Granite_Coffee
+Ka 0.000000 0.000000 0.000000
+Kd 0.635294 0.517647 0.415686
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Stone_Granite_Coffee.tga
+
+newmtl Translucent_Glass_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.330000 0.330000 0.330000
+d 0.500000
+
+newmtl Translucent_Glass_Sky_Reflection
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.330000 0.330000 0.330000
+d 0.520000
+map_Kd casa/Translucent_Glass_Sky_Reflection.tga
+
+newmtl Color_007
+Ka 0.000000 0.000000 0.000000
+Kd 0.227451 0.227451 0.227451
+Ks 0.330000 0.330000 0.330000
+
+newmtl Stone_Tile_Squares
+Ka 0.000000 0.000000 0.000000
+Kd 0.698039 0.658824 0.607843
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Stone_Tile_Squares.tga
+
+newmtl Color_006
+Ka 0.000000 0.000000 0.000000
+Kd 0.337255 0.337255 0.337255
+Ks 0.330000 0.330000 0.330000
+
+newmtl Metal_Rusted
+Ka 0.000000 0.000000 0.000000
+Kd 0.721569 0.458824 0.356863
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Metal_Rusted.tga
+
+newmtl Brick_Flemish_Stretcher_Dark
+Ka 0.000000 0.000000 0.000000
+Kd 0.498039 0.498039 0.498039
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Brick_Flemish_Stretcher_Dark.tga
+
+newmtl Color_002
+Ka 0.000000 0.000000 0.000000
+Kd 0.776471 0.776471 0.776471
+Ks 0.330000 0.330000 0.330000
+
+newmtl Brick_Stone_Rectangle_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.529412 0.501961 0.494118
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Brick_Stone_Rectangle_Gray.tga
+
+newmtl Cladding_Stucco_White
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.784314
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Cladding_Stucco_White.tga
+
+newmtl Wood_Board_Cork
+Ka 0.000000 0.000000 0.000000
+Kd 0.843137 0.788235 0.450980
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Wood_Board_Cork.tga
+
+newmtl Wood_Cherry_Original
+Ka 0.000000 0.000000 0.000000
+Kd 0.596078 0.337255 0.164706
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Wood_Cherry_Original.tga
+
+newmtl _Carpet_Berber_Multi_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.592157 0.525490 0.478431
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/_Carpet_Berber_Multi_1.tga
+
+newmtl Stone_Vein_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.650980 0.647059 0.647059
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Stone_Vein_Gray.tga
+
+newmtl Water_Deep
+Ka 0.000000 0.000000 0.000000
+Kd 0.015686 0.396078 0.501961
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Water_Deep.tga
+
+newmtl _Ivory_
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 0.941176
+Ks 0.330000 0.330000 0.330000
+
+newmtl _LightGray_
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.662745 0.662745
+Ks 0.330000 0.330000 0.330000
+
+newmtl Fencing_Metal_Straight
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Fencing_Metal_Straight.png
+
+newmtl _Wood_Cherry_Original_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.596078 0.337255 0.164706
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/_Wood_Cherry_Original_1.tga
+
+newmtl Cladding_Board_Batten_Siding
+Ka 0.000000 0.000000 0.000000
+Kd 0.886275 0.886275 0.886275
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Cladding_Board_Batten_Siding.tga
+
+newmtl _Cladding_Stucco_White_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.784314
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/_Cladding_Stucco_White_1.tga
+
+newmtl Material24
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Material24.png
+
+newmtl Tile_Ceramic_Multi
+Ka 0.000000 0.000000 0.000000
+Kd 0.647059 0.450980 0.329412
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Tile_Ceramic_Multi.tga
+
+newmtl Fencing_Wood_Old
+Ka 0.000000 0.000000 0.000000
+Kd 0.517647 0.501961 0.494118
+Ks 0.330000 0.330000 0.330000
+map_Kd casa/Fencing_Wood_Old.tga
+
+newmtl Color_005
+Ka 0.000000 0.000000 0.000000
+Kd 0.447059 0.447059 0.447059
+Ks 0.330000 0.330000 0.330000
+
+newmtl Color_003
+Ka 0.000000 0.000000 0.000000
+Kd 0.666667 0.666667 0.666667
+Ks 0.330000 0.330000 0.330000
+
+newmtl Translucent_Resin_Crush_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.721569 0.721569 0.721569
+Ks 0.330000 0.330000 0.330000
+d 0.800000
+map_Kd casa/Translucent_Resin_Crush_Gray.tga
+

@@ -1,0 +1,15 @@
+para mover
+haz "a 0 mt
+haz "s 0 bl
+haz "d 0 ponlapiz
+creaventana "root "a "Tortuga 400 75 205 220 [ponfoco "a]
+creaboton "a "b1 [^] 75 10 55 40 [ponrumbo 0 av 20]
+creaboton "a "b2 [v] 75 60 55 40 [ponrumbo 180 av 20]
+creaboton "a "b3 [>] 140 60 55 40 [ponrumbo 90 av 20]
+creaboton "a "b4 [<] 10 60 55 40 [ponrumbo 270 av 20]
+creaboton "a "b5 [Mostrar/Ocultar] 10 110 55 40 [sisino :a = 1 [mt haz "a 0] [ot haz "a 1]]
+creaboton "a "b6 [Pintar On/Off] 75 110 55 40 [sisino :s = 1 [bl haz "s 0] [sl haz "s 1]]
+creaboton "a "b7 [Lápiz/Goma] 140 110 55 40 [sisino :d = 1 [ponlapiz haz "d 0] [goma haz "d 1] sisino :s = 0 [bl] [sl] ]
+creaboton "a "b8 [Reiniciar] 10 160 55 40 [bp]
+creaboton "a "b9 [Cerrar] 140 160 55 40 [si "s = primero preguntabox "Reiniciar [¿Estás seguro de que quieres salir? - "s" para salir] [borraventana "a]]
+fin

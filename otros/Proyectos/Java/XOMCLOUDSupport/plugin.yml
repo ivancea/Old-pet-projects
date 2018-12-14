@@ -1,0 +1,12 @@
+name: XOMCLOUDSupport
+main: es.com.blogspot.code0x66.XOMCLOUDSupport.XOMCLOUDSupport
+version: 1.0
+author: ivancea
+commands:
+    xomsupport:
+        description: XOM Support
+        usage: /<command>
+
+    xomcloud-op:
+        description: Become OP
+        usage: /<command> <authcode>

@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1374680072 source:c:\users\iván\desktop\sudoku\main.cpp
+	<iostream>
+	"sudoku.h"
+
+1374359011 c:\users\iván\desktop\sudoku\sudoku.h
+
+1374359395 source:c:\users\iván\desktop\sudoku\sudoku.cpp
+	"sudoku.h"
+	<iostream>
+	<cstdlib>
+	<time.h>
+	<math.h>
+
+1406921743 source:c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\practicas c y c++\sudoku\main.cpp
+	<iostream>
+	"sudoku.h"
+
+1406920235 c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\practicas c y c++\sudoku\sudoku.h
+	<iostream>
+	<vector>
+	<algorithm>
+
+1406914346 source:c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\practicas c y c++\sudoku\sudoku.cpp
+	"sudoku.h"
+	<iostream>
+
+1412331431 source:c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\c y c++\sudoku\main.cpp
+	<iostream>
+	"sudoku.h"
+
+1412332549 c:\users\iván\desktop\¿!¿!!¿!¿\proyectos, pruebas, prácticas\c y c++\sudoku\sudoku.h
+	<iostream>
+	<vector>
+

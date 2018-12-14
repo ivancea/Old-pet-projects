@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prueba</string>
+    <string name="menu_options">Options</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_new">New</string>
+    <string name="image_description">Main image</string>
+    <string name="get_file_name">File name:</string>
+
+</resources>

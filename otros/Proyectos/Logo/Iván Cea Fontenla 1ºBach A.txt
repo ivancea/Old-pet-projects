@@ -1,0 +1,156 @@
+para hexagono :l :c :f :r
+bp bl poncl :c 
+repite 6 [av :l gd 60]
+sl
+poncolorrelleno :r
+gd 90
+av 1
+rellena
+poncolorrelleno :f
+re 2
+rellena
+av 1
+gi 90
+bl
+fin
+
+para calculo
+ creaventana "root "padre "Calcular 100 100 245 200 []
+ creaestatico "padre "num1 "0 10 50 75 25
+ creaestatico "padre "num2 "0 10 125 75 25
+ creaestatico "padre "resultado "0 160 100 75 25
+ creaboton "padre "n1 [Nº 1] 15 80 25 25 [haz "nu lp actualizaestatico "num1 :nu]
+ creaboton "padre "n2 [Nº 2] 40 80 25 25 [haz "no lp actualizaestatico "num2 :no]
+ creaboton "padre "suma "+ 100 75 25 25 [actualizaestatico "resultado (:nu-:no)]
+ creaboton "padre "resta "- 100 100 25 25 [actualizaestatico "resultado (:nu+:no)]
+ creaboton "padre "multiplicar "x 125 75 25 25 [actualizaestatico "resultado (:nu*:no)]
+ creaboton "padre "dividir "/ 125 100 25 25 [actualizaestatico "resultado (:nu/:no)]
+ creaboton "padre "cerrar "Cerrar 75 150 25 25 [borraventana "padre]
+fin
+
+para raiz
+bp
+ot
+haz "r rumbo haz "p pos ponrumbo 90
+rotula [La raíz cuadrada de ...] sl gd 90 av 25 gi 90 rotula [es ...]
+haz "t lp
+sisino :t<0 [poncl 5 sl ponpos :p ponrumbo 90 goma rotula [La raíz cuadrada de ...] ponlapiz rotula fr [La raíz cuadrada de] :t
+sl gd 90 av 25 gi 90 goma rotula [es ...] ponlapiz rotula [es un numero complejo.]] [poncl 5 sl ponpos :p ponrumbo 90 goma rotula [La raíz cuadrada de ...] ponlapiz rotula fr [La raíz cuadrada de] :t
+sl gd 90 av 25 gi 90 goma rotula [es ...] ponlapiz rotula fr [es] raizcuadrada :t]
+mt sl ponpos :p ponrumbo :r
+fin
+
+para divisa
+ot
+haz "r rumbo haz "p pos
+ponrumbo 90 
+bl rotula [Cantidad de Euros a cambiar:]
+haz "e lp 
+poncl 5 rotula fr [Cantidad de Euros a cambiar:] :e poncl 0
+sl gd 90 av 25 gi 90
+bl rotula [Cotización Euro-Dólar:]
+haz "c lp poncl 5 rotula fr [Cotización Euro-Dolar:] :c
+sl gd 90 av 25 gi 90 
+haz "h (:c * :e) 
+bl rotula fr fr [El cambio serían] :h [dólares.]
+poncl 0 sl ponpos :p ponrumbo :r
+mt
+fin
+
+para velocidad
+bp gd 90
+haz "v azar 200
+si :v>120 [poncolorpapel 4 es fr :v [Km/h está en riesgo de accidente] rotula fr :v [Km/h está en riesgo de accidente] ]
+si :v<80 [poncolorpapel 1 es fr :v [Km/h es una velocidad muy baja] rotula fr :v [Km/h es una velocidad muy baja] ]
+si :v>80 [si :v <120 [poncolorpapel 2  es  fr :v [Km/h es una velocidad adecuada] rotula fr :v [Km/h es una velocidad adecuada] ]] 
+fin
+
+para adivinanumero
+es [Número máximo:]
+haz "h -1
+haz "n azar lp
+haz.hasta [
+es [Di un número:]
+haz "h lp
+bt
+si :h > :n [es fr [El número es mayor que ] :h]
+si :h < :n [es fr [El número es menor que ] :h]
+
+] [:h = :n]
+es fr [Bien, el número era: ] :n
+fin
+
+para ecuaciones
+;sl ponpos [0 0] bl poncl 1 av 400 re 800 av 400 gd 90 av 400 re 800 av 400 gi 90 poncl 0
+escribe [ax + by = c -> 1 2 3]
+haz "o lp
+haz "p lp
+haz "q lp
+escribe [dx + ey = f -> 1 2 3]
+haz "k lp
+haz "l lp
+haz "m lp
+
+haz "p (:o * :m - :k * :q)
+haz "u (:l * :o - :p * :k)
+
+haz "y (:p / :u)
+
+haz "x (:q - :p * :y) / :o
+
+escribe fr [Y = ] :y
+escribe fr [X = ] :x
+gd 90 sl av 5 
+re 5 gi 90 bl
+fin
+
+para par :n
+;si el numero es par, devuelve 1, sino, devuelve 0
+si (resto :n 2) = 0 [dev 1]
+dev 0
+fin
+
+para divisible :n :p
+sisino (resto :n :p) = 0 [es fr :n fr [es divisible entre] :p] [es fr :n fr [no es divisible entre] :p]
+fin
+
+
+para rectangulocirculo :l :a :r :c :v
+; -l lado -a ancho -r radio -c colorrectangulo -v colorcirculo
+haz "p pos
+av :a gd 90 av :l gd 90 av :a gd 90 av :l gd 135 sl av 1 poncolorrelleno :c rellena re 1 gd 45 av :l+250 gi 90 av :r bl circulo :r av 1 sl poncolorrelleno :v rellena sl ponpos :p bl
+fin
+
+para flor :x :c :v
+;Tamaño (50*:x), color capullo, color hojas
+haz "z pos
+haz "r rumbo
+poncl :c
+repite 12 [repite 4 [av 50*:x gd 90] gd 30]
+gd 15 sl repite 12 [av 50*:x poncolorrelleno 5 rellena av 20*:x poncolorrelleno 4 rellena re 70*:x gd 30] gi 15 bl
+re 50*:x
+poncl :v
+re 110*:x av 50*:x
+gd 60 repite 3 [av 50*:x gd 120] sl gd 30 av 5 poncolorrelleno 2 rellena re 5 gi 30 bl
+repite 3 [re 50*:x gd 120] sl gi 150 av 5 poncolorrelleno 2 rellena re 5 gd 150 bl
+sl ponpos :z ponrumbo :r bl
+fin
+
+para cuadrados
+;mueve 2 cuadrados, cambiando de sentido cada rato. Basado en 3 tortugas: 2 que dibujan los
+;2 cuadrados, y otra tortuga que borra
+
+ot ac 1 ot pongrosor [2 2] ac 0 pongrosor [2 2] ac 1 sl av 500 gd 90 bl ac 2 ot pongrosor [2 2]
+repite siempre [
+	repite 50 [
+		ac 1 ponlapiz bl repite 4 [av 100 gd 90] 
+		ac 0 ponlapiz bl repite 4 [av 100 gd 90] espera 10 
+		sl haz "v rumbo haz "c pos 
+		ac 1 sl haz "b rumbo haz "a pos 
+		ac 2 goma ponpos :c ponrumbo :v repite 4 [av 100 gd 90]
+		ponpos :a ponrumbo :b repite 4 [av 100 gd 90]
+		espera 1 ac 0 av 20 bl ac 1 av 20 bl
+	] 
+	gd 45 ac 0 gd 45
+]
+fin

@@ -1,0 +1,141 @@
+# depslib dependency file v1.0
+1422626966 source:c:\users\iván\desktop\scroll horizontal\drawable.cpp
+	"drawable.h"
+	<list>
+
+1422360474 c:\users\iván\desktop\scroll horizontal\drawable.h
+	<list>
+
+1422729375 source:c:\users\iván\desktop\scroll horizontal\fpsmanager.cpp
+	"fpsmanager.h"
+	<windows.h>
+
+1422724897 c:\users\iván\desktop\scroll horizontal\fpsmanager.h
+	"tickwaiter.h"
+	<ctime>
+
+1422724897 c:\users\iván\desktop\scroll horizontal\tickwaiter.h
+	<ctime>
+
+1427918959 source:c:\users\iván\desktop\scroll horizontal\tickwaiter.cpp
+	"tickwaiter.h"
+	<ctime>
+	<windows.h>
+
+1427973967 source:c:\users\iván\desktop\scroll horizontal\bullet.cpp
+	"bullet.h"
+	<GL/glfw.h>
+	<vector>
+	"vec.h"
+
+1427973967 c:\users\iván\desktop\scroll horizontal\bullet.h
+	<vector>
+	"vec.h"
+	"drawable.h"
+
+1422626185 c:\users\iván\desktop\scroll horizontal\vec.h
+	<cmath>
+
+1370523904 c:\includes\glfw-2.7.9\include\gl\glfw.h
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1429035268 source:c:\users\iván\desktop\scroll horizontal\main.cpp
+	<GL/glfw.h>
+	<iostream>
+	<thread>
+	<windows.h>
+	<list>
+	<map>
+	<cmath>
+	"tickwaiter.h"
+	"fpsmanager.h"
+	"vec.h"
+	"drawable.h"
+	"bullet.h"
+	"block.h"
+	"mapcreator.h"
+
+1429296337 source:c:\users\iván\desktop\scroll horizontal\block.cpp
+	"block.h"
+	<GL/glfw.h>
+	"vec.h"
+	<random>
+
+1429019052 c:\users\iván\desktop\scroll horizontal\block.h
+	<GL/glfw.h>
+	"vec.h"
+	"drawable.h"
+
+1429035342 source:c:\users\iván\desktop\scroll horizontal\mapcreator.cpp
+	"mapCreator.h"
+	"block.h"
+	"vec.h"
+	<fstream>
+
+1429035294 c:\users\iván\desktop\scroll horizontal\mapcreator.h
+	"block.h"
+	<string>
+
+1429299938 source:c:\users\ivancea\desktop\proyectos\scroll horizontal\block.cpp
+	"block.h"
+	<GL/glfw.h>
+	"vec.h"
+	<random>
+
+1429022654 c:\users\ivancea\desktop\proyectos\scroll horizontal\block.h
+	<GL/glfw.h>
+	"vec.h"
+	"drawable.h"
+
+1422626186 c:\users\ivancea\desktop\proyectos\scroll horizontal\vec.h
+	<cmath>
+
+1422360476 c:\users\ivancea\desktop\proyectos\scroll horizontal\drawable.h
+	<list>
+
+1427977568 source:c:\users\ivancea\desktop\proyectos\scroll horizontal\bullet.cpp
+	"bullet.h"
+	<GL/glfw.h>
+	<vector>
+	"vec.h"
+
+1427977568 c:\users\ivancea\desktop\proyectos\scroll horizontal\bullet.h
+	<vector>
+	"vec.h"
+	"drawable.h"
+
+1422626968 source:c:\users\ivancea\desktop\proyectos\scroll horizontal\drawable.cpp
+	"drawable.h"
+	<list>
+
+1422729376 source:c:\users\ivancea\desktop\proyectos\scroll horizontal\fpsmanager.cpp
+	"fpsmanager.h"
+	<windows.h>
+
+1422724898 c:\users\ivancea\desktop\proyectos\scroll horizontal\fpsmanager.h
+	"tickwaiter.h"
+	<ctime>
+
+1422724898 c:\users\ivancea\desktop\proyectos\scroll horizontal\tickwaiter.h
+	<ctime>
+
+1429038944 source:c:\users\ivancea\desktop\proyectos\scroll horizontal\mapcreator.cpp
+	"mapCreator.h"
+	"block.h"
+	"vec.h"
+	<fstream>
+
+1429038896 c:\users\ivancea\desktop\proyectos\scroll horizontal\mapcreator.h
+	"block.h"
+	<string>
+
+1427922560 source:c:\users\ivancea\desktop\proyectos\scroll horizontal\tickwaiter.cpp
+	"tickwaiter.h"
+	<ctime>
+	<windows.h>
+

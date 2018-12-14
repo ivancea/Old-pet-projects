@@ -1,0 +1,13 @@
+   ZONA    || NORTE-SUR || ESTE-OESTE || ALTURA
+
+Teldrassil: 9730|2525|1340
+Hyjal: 5231|-1489|1360
+Forjaz: -4750|-1150|504
+Acherus: Bastión del Ébano: 2430|-5611|422
+Comienzo de Páramos de Poniente: -9862|930|35
+Dalaran: 5691|659|648
+Dalaran Fosa de Dragonizos: 5855|515|600
+Ventormenta:-8830|790|100
+Barco a Rasganorte de Ventormenta: -8291|1404|10
+Isla MJ: 16400|16222|60  (Mapid: 1)
+Sótano MJ: 16403|16225|-64  (Mapid: 1)

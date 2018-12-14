@@ -1,0 +1,63 @@
+para circ :s
+haz "a  0
+ haz.hasta [av :s gd 1 haz "a :a+1] [:a>359]
+fin
+
+para espiga :n
+haz "a 0
+ haz.hasta [av 10 gi 60 av 15 re 15 gd 120 av 15 re 15 gi 60 haz "a :a+1] [:a=:n]
+fin
+
+para persona :x
+av :x*100
+gi 90
+circ :x*0.5
+gi 45
+av :x*75
+re :x*75
+gi 90
+av :x*75
+re :x*75
+gi 135
+re :x*100
+gd 150
+av :x*75
+re :x*75
+gd 60
+av :x*75
+re :x*75
+gd 150
+fin
+
+para poligono :l :d
+haz "a 0
+haz.hasta [av :d gd 360/:l haz "a :a+1] [:a=:l]
+fin
+
+para poligonoespiga :l :d
+haz "a 0
+haz.hasta [haz "h 0 haz.hasta [av 10 gi 60 av 15 re 15 gd 120 av 15 re 15 gi 60 haz "h :h+1] [:h=:d] gd 360/:l haz "a :a+1] [:a=:l]
+fin
+
+para grafica
+sl ponpos [0 0] bl poncl 1 av 400 re 800 av 400 gd 90 av 400 re 800 av 400 gi 90 poncl 0
+haz "t 0 haz "x 0 haz "y 0
+haz.hasta [haz "y potencia :x 2 ponpos fr :x :y haz "x :x+0.1 haz "t :t+1 si :x>500 [haz "t 1000] si :y>500 [haz "t 1000]] [:t=1000]
+sl ponpos [0 0] bl
+gd 90 sl av 5 rotula [y = x^2] re 5 gi 90 bl
+fin
+
+para poligonos :l :x :n
+;-l tamaño de lado  -x numero de lados -n numero de repeticiones
+haz "a pos
+repite :n [repite :x [av :l gd 360/:x] gi 360/:x  re :l/2 haz "l (:l/2 * sen (180-(360/:x)))/sen 180/:x gd 180/:x]
+sl ponpos :a gd :n*(180/:x) bl
+fin
+
+para poligonoscolor :l :x :n
+;-l tamaño de lado  -x numero de lados -n numero de repeticiones
+haz "a pos
+repite :x [av :l gd (360/:x)] gi 360/:x  re :l/2 haz "l (:l/2 * sen (180-(360/:x)))/sen 180/:x gd 180/:x
+repite :n-1 [repite :x [av :l gd (360/:x)+20 sl av 5 poncolorrelleno (azar 16)-1 rellena re 5 gi 20 bl] gi 360/:x  re :l/2 haz "l (:l/2 * sen (180-(360/:x)))/sen 180/:x gd 180/:x]
+sl ponpos :a gd :n*(180/:x) bl
+fin
