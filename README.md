@@ -13,3 +13,9 @@ English, spanish, camelCase, snake_case... Don't blame my old me, I'm a better p
 From time to time, I like to check those projects. They are my time machine to my starts :D
 
 I've had a lot of fun and learned a lot making all those little steps into the programming world, and I hope there is someone who finds something interesting or useful here!
+
+## Structure
+
+Most projects are in the root as single files. Some others are full projects within a folder. Most of those in C++.
+
+Then, inside of the folder "otros" ("others") there are sub-folders for projects in other languages.
